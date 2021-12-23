@@ -8,6 +8,12 @@ letter-spacing: 0.03em;
 
 color: $accent-col;
 
+
+        &:focus{
+            outline: $fh-outline;
+            border-radius: $fh-border-radius;
+         }
+
     &--size{
         @media screen and (min-width: 767px){
 

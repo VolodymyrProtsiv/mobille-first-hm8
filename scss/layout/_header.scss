@@ -3,47 +3,57 @@
 }
 
 // mobile-menu
-
-.header__open__mobile{
-    display: flex;
-    align-items: center;
-
-
-}
-.btn__mobile__open{
-    
-    justify-content: center;
-    margin-left: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+@media screen and (max-width:767px){
+    .header__open__mobile{
+        display: flex;
+        align-items: center;
 
 
-    width: 40px;
-    height: 40px;
-
-    background-color: transparent;
-    border: transparent;
-
-    &:focus >.icon__open__mobile,
-    &:hover > .icon__open__mobile{
-    color:$accent-col;
-    box-shadow:none;
     }
+    .btn__mobile__open{
+        
+        justify-content: center;
+        margin-left: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
 
-}
-.icon__open__mobile{
-    fill:currentColor;
-    
 
-     box-shadow:(0px 4px 4px rgba(0, 0, 0, 0.50));
+        width: 40px;
+        height: 40px;
 
-    
+        background-color: transparent;
+        border: transparent;
 
-    &:focus,
-    &:hover{
+        
+
+        &:focus,{
+            outline: $fh-outline;
+            border-radius: $fh-border-radius;
+         }
+
+        
+
+    }
+    .icon__open__mobile{
+        fill:currentColor;
+
+        box-shadow:(0px 4px 4px rgba(0, 0, 0, 0.50));
+
+        transition: colore $pr-transition, box-shadow $pr-transition;
+
+        .btn__mobile__open:focus >&,
+        .btn__mobile__open:hover >&{
+        color:$accent-col;
         box-shadow:none;
+        }
     }
 
-    
-
 }
+
+@media screen and (min-width:767px) {
+    .btn__mobile__open{
+        display: none;
+    }
+    
+}
+    
