@@ -1,6 +1,6 @@
 .header{
     
-    background-color: $bg-pr-col;
+     background-color: $bg-pr-col;
 
 }
 // mobile-menu
@@ -11,19 +11,20 @@
 }
 @media screen and (max-width:767px){
     .header__open__mobile{
+        
         display: flex;
         align-items: center;
 
 
     }
-    .btn__mobile
-    {
-        display: flex;
-        justify-content: center;
+    .btn__mobile{
+    // 
+    //     display: flex;
+    //     justify-content: center;
         margin-left: auto;
         padding-top: 10px;
         padding-bottom: 10px;
-
+align-items: center;
 
         width: 40px;
         height: 40px;
@@ -70,9 +71,9 @@
 
 
     .mobile__manu{
-      position:absolute;
-      top:0;
-      left:0;
+       position:absolute;
+       top:0px;
+       left:0px;
 
       width: 100vw;
       height: 100vw;

@@ -52,34 +52,38 @@ body {
   border-radius: 2px;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (max-width: 767px) {
   .logo--size {
     padding: 16px 0px;
   }
 }
 
 .conteiner {
-  position: relative;
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
+  background-color: aqua;
 }
 
 @media screen and (min-width: 480px) {
   .conteiner {
+    position: relative;
     width: 480px;
+    background-color: tomato;
   }
 }
 
 @media screen and (min-width: 796px) {
   .conteiner {
     width: 796px;
+    background-color: green;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .conteiner {
     width: 1200px;
+    background-color: blue;
   }
 }
 
@@ -95,10 +99,6 @@ body {
 
 .btn {
   cursor: pointer;
-}
-
-.header {
-  background-color: #ffffff;
 }
 
 @media screen and (min-width: 767px) {
@@ -158,8 +158,8 @@ body {
   }
   .mobile__manu {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0px;
+    left: 0px;
     width: 100vw;
     height: 100vw;
     background-color: #ffffff;
