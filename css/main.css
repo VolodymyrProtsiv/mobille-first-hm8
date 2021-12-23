@@ -98,6 +98,7 @@ body {
 
 .header {
   background-color: #ffffff;
+  border-bottom: 1px solid #a1a1a1;
 }
 
 @media screen and (min-width: 768px) {
@@ -161,11 +162,6 @@ body {
     color: #2196f3;
     -webkit-box-shadow: none;
             box-shadow: none;
-  }
-  .icon__mobile--close {
-    position: absolute;
-    top: 0px;
-    right: 0px;
   }
   .btn__mobile:focus > .icon__mobile--close,
   .btn__mobile:hover > .icon__mobile--close {
