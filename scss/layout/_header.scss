@@ -10,7 +10,8 @@
 
 
     }
-    .btn__mobile__open{
+    .btn__mobile
+    {
         
         justify-content: center;
         margin-left: auto;
@@ -26,7 +27,7 @@
 
         
 
-        &:focus,{
+        &:focus{
             outline: $fh-outline;
             border-radius: $fh-border-radius;
          }
@@ -34,15 +35,15 @@
         
 
     }
-    .icon__open__mobile{
+    .icon__mobile--open{
         fill:currentColor;
 
         box-shadow:(0px 4px 4px rgba(0, 0, 0, 0.50));
 
         transition: colore $pr-transition, box-shadow $pr-transition;
 
-        .btn__mobile__open:focus >&,
-        .btn__mobile__open:hover >&{
+        .btn__mobile:focus >&,
+        .btn__mobile:hover >&{
         color:$accent-col;
         box-shadow:none;
         }
@@ -51,7 +52,7 @@
 }
 
 @media screen and (min-width:767px) {
-    .btn__mobile__open{
+    .btn__mobile{
         display: none;
     }
     

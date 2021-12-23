@@ -8,6 +8,11 @@ letter-spacing: 0.03em;
 
 color: $accent-col;
 
+    &__part__header{
+        color: $pr-col-txt;
+        
+    }
+
 
         &:focus{
             outline: $fh-outline;
@@ -22,5 +27,7 @@ color: $accent-col;
 
         
     }
+
+   
 
 }
