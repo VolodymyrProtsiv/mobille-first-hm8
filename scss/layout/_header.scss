@@ -1,7 +1,14 @@
 .header{
+    
     background-color: $bg-pr-col;
+
 }
 // mobile-menu
+@media screen and (min-width:767px) {
+    .btn__mobile{
+        display: none;
+    }
+}
 @media screen and (max-width:767px){
     .header__open__mobile{
         display: flex;
@@ -59,17 +66,23 @@
                 }
             }
 
-        
-
-         
-
     }
+
+
+    .mobile__manu{
+      position:absolute;
+      top:0;
+      left:0;
+
+      width: 100vw;
+      height: 100vw;
+
+      background-color: $bg-pr-col;
+
+      
+    }
+    
 }
 
 
 
-@media screen and (min-width:767px) {
-    .btn__mobile{
-        display: none;
-    }
-}
