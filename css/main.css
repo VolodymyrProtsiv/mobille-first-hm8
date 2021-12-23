@@ -62,28 +62,23 @@ body {
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
-  background-color: aqua;
 }
 
 @media screen and (min-width: 480px) {
   .conteiner {
-    position: relative;
     width: 480px;
-    background-color: tomato;
   }
 }
 
 @media screen and (min-width: 796px) {
   .conteiner {
     width: 796px;
-    background-color: green;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .conteiner {
     width: 1200px;
-    background-color: blue;
   }
 }
 
@@ -101,7 +96,11 @@ body {
   cursor: pointer;
 }
 
-@media screen and (min-width: 767px) {
+.header {
+  background-color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
   .btn__mobile {
     display: none;
   }
@@ -126,6 +125,9 @@ body {
     margin-left: auto;
     padding-top: 10px;
     padding-bottom: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 40px;
     height: 40px;
     background-color: transparent;
@@ -134,6 +136,14 @@ body {
   .btn__mobile:focus {
     outline: 1px solid #2196f3;
     border-radius: 2px;
+  }
+  .mobile__manu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vw;
+    background-color: #ffffff;
   }
   .icon__mobile {
     fill: currentColor;
@@ -152,17 +162,14 @@ body {
     -webkit-box-shadow: none;
             box-shadow: none;
   }
+  .icon__mobile--close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
   .btn__mobile:focus > .icon__mobile--close,
   .btn__mobile:hover > .icon__mobile--close {
     color: #2196f3;
-  }
-  .mobile__manu {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100vw;
-    height: 100vw;
-    background-color: #ffffff;
   }
 }
 /*# sourceMappingURL=main.css.map */
