@@ -27,6 +27,7 @@ body {
 
 .link {
   text-decoration: none;
+  cursor: pointer;
 }
 
 .active {
@@ -42,9 +43,10 @@ body {
   color: #2196f3;
 }
 
-.logo--size {
-  display: block;
-  padding: 16px 0px;
+@media screen and (min-width: 767px) {
+  .logo--size {
+    padding: 16px 0px;
+  }
 }
 
 .conteiner {
@@ -53,19 +55,19 @@ body {
   margin: 0 auto;
 }
 
-@media (min-width: 480px) {
+@media screen and (min-width: 480px) {
   .conteiner {
     width: 480px;
   }
 }
 
-@media (min-width: 796px) {
+@media screen and (min-width: 796px) {
   .conteiner {
     width: 796px;
   }
 }
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .conteiner {
     width: 1200px;
   }
@@ -83,5 +85,45 @@ body {
 
 .header {
   background-color: #ffffff;
+}
+
+.header__open__mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn__mobile__open {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: transparent;
+}
+
+.btn__mobile__open:focus > .icon__open__mobile,
+.btn__mobile__open:hover > .icon__open__mobile {
+  color: #2196f3;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.icon__open__mobile {
+  fill: currentColor;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.icon__open__mobile:focus, .icon__open__mobile:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,3 +1,49 @@
 .header{
     background-color: $bg-pr-col;
 }
+
+// mobile-menu
+
+.header__open__mobile{
+    display: flex;
+    align-items: center;
+
+
+}
+.btn__mobile__open{
+    
+    justify-content: center;
+    margin-left: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+    width: 40px;
+    height: 40px;
+
+    background-color: transparent;
+    border: transparent;
+
+    &:focus >.icon__open__mobile,
+    &:hover > .icon__open__mobile{
+    color:$accent-col;
+    box-shadow:none;
+    }
+
+}
+.icon__open__mobile{
+    fill:currentColor;
+    
+
+     box-shadow:(0px 4px 4px rgba(0, 0, 0, 0.50));
+
+    
+
+    &:focus,
+    &:hover{
+        box-shadow:none;
+    }
+
+    
+
+}
