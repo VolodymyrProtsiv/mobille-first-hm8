@@ -1,6 +1,7 @@
 .header{
     
-    background-color: $bg-pr-col;
+     background-color: $bg-pr-col;
+     border-bottom: 1px solid $br-solid-col;
 
 }
 // mobile-menu
@@ -11,22 +12,11 @@
 
     
 }
-@media screen and (max-width:767px){
-    .btn__mobile{
-        display: block;
-        background-color: transparent;
-        border: 1px solid green ;
-        width: 40px;
-        height: 40px;
+@media screen and (max-width:767px){}
 
-    }
-    .wraper__burger_menu{
+
+   
        
-    }
-}
-
-    
-
 
 
 

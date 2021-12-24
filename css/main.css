@@ -52,7 +52,7 @@ body {
   border-radius: 2px;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (max-width: 767px) {
   .logo--size {
     padding: 16px 0px;
   }
@@ -98,21 +98,12 @@ body {
 
 .header {
   background-color: #ffffff;
+  border-bottom: 1px solid #a1a1a1;
 }
 
 @media screen and (min-width: 768px) {
   .btn__mobile {
     display: none;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .btn__mobile {
-    display: block;
-    background-color: transparent;
-    border: 1px solid green;
-    width: 40px;
-    height: 40px;
   }
 }
 /*# sourceMappingURL=main.css.map */
