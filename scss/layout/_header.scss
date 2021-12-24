@@ -23,6 +23,7 @@
 
     .wraper__burger_menu{
         position: relative;
+        display: block;
         border: 1px solid green;
         width: 24px;
         height: 16px;
@@ -30,9 +31,7 @@
         &::before,
         &::after{
             content: '';
-            position:absolute;
-            left: 0;
-            display: block;
+           
             
             height:  3px ; 
             background-color: $pr-col-txt;
