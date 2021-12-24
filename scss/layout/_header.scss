@@ -14,7 +14,41 @@
 }
 @media screen and (max-width:767px){
 
-    
+    .btn__mobile{
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        border: 1px solid green;
+    }
+
+    .wraper__burger_menu{
+        position: relative;
+        border: 1px solid green;
+        width: 24px;
+        height: 16px;
+
+        &::before,
+        &::after{
+            content: '';
+            position:absolute;
+            left: 0;
+            display: block;
+            
+            height:  3px ; 
+            background-color: $pr-col-txt;
+        }
+        &::before{
+
+            top:0;
+        }
+        &::after{
+            bottom: 0;
+        }
+        
+
+
+
+    }
 }
 
 
