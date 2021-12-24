@@ -4,85 +4,30 @@
 
 }
 // mobile-menu
-@media screen and (min-width:767px) {
+@media screen and (min-width:768px) {
     .btn__mobile{
         display: none;
     }
+
+    
 }
 @media screen and (max-width:767px){
-    .header__open__mobile{
-        display: flex;
-        align-items: center;
-
-
-    }
-    .btn__mobile
-    {
-        display: flex;
-        justify-content: center;
-        margin-left: auto;
-        padding-top: 10px;
-        padding-bottom: 10px;
-
-
+    .btn__mobile{
+        display: block;
+        background-color: transparent;
+        border: 1px solid green ;
         width: 40px;
         height: 40px;
 
-        background-color: transparent;
-        border: transparent;
-
-        
-
-        &:focus{
-            outline: $fh-outline;
-            border-radius: $fh-border-radius;
-         }
-
-        
-
     }
-    .icon__mobile{
-        fill:currentColor;
-         transition: colore $pr-transition, box-shadow $pr-transition;
-
-            &--open{
-                box-shadow:(0px 4px 4px rgba(0, 0, 0, 0.50));
-
-            
-
-                .btn__mobile:focus >&,
-                .btn__mobile:hover >&{
-                color:$accent-col;
-                box-shadow:none;
-                }
-            }
-
-           &--close{
-    
-                .btn__mobile:focus >&,
-                .btn__mobile:hover >&{
-                color:$accent-col;
-                
-                }
-            }
-
+    .wraper__burger_menu{
+       
     }
-
-
-    .mobile__manu{
-      position:absolute;
-      top:0;
-      left:0;
-
-      width: 100vw;
-      height: 100vw;
-
-      background-color: $bg-pr-col;
-
-      
-    }
-    
 }
+
+    
+
+
 
 
 
