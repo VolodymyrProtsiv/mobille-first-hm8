@@ -1,3 +1,24 @@
-.active{
-    color: $accent-col;
+.active {
+
+
+   
+        color: $accent-col;
+  
+        &::after {
+            display: block;
+          position: absolute;
+          right: 0;
+          bottom: -1px;
+        
+          content: "";
+          
+          width: 100%;
+          height: 4px;
+          border-radius: 4px;
+        
+          background-color: $accent-col;
+        }
+
+    
+  
 }
