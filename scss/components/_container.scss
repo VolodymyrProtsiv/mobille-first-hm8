@@ -3,6 +3,10 @@
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
+
+    &--header{
+        display: flex;
+    }
    
     
  
@@ -14,11 +18,9 @@
         
     }
 
-    @media screen and (min-width:796px){
-        width: 796px;
-        &--header{
-            display: flex;
-        }
+    @media screen and (min-width:768px){
+        width: 768px;
+        
         
     }
 
