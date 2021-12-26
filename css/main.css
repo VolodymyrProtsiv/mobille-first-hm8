@@ -41,10 +41,6 @@ body {
   border-radius: 2px;
 }
 
-.active {
-  color: #2196f3;
-}
-
 .logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -283,6 +279,62 @@ body {
   }
   .mob__conteiner {
     display: none;
+  }
+  .header__menu__conteiner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .nav__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .nav__item--size {
+    margin-right: 50px;
+  }
+  .nav__item--size:last-child {
+    margin-right: 0;
+  }
+  .nav__item__link {
+    position: relative;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    color: #212121;
+  }
+  .nav__item__link--size {
+    padding: 32px 0;
+  }
+  .contacts__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contacts__list--size {
+    margin-left: auto;
+  }
+  .active {
+    color: #2196f3;
+  }
+  .active::after {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -9px;
+    content: "";
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #2196f3;
   }
 }
 /*# sourceMappingURL=main.css.map */
