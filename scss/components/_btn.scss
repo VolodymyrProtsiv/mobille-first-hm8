@@ -1,3 +1,30 @@
 .btn{
     cursor: pointer;
+    
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.9;
+        text-align: center;
+        letter-spacing: 0.06em;
+        border-radius: 4px;
+        background-color: $accent-col;
+        color: $bg-pr-col;
+        border: none;
+        cursor: pointer;
+        box-shadow: 0px 4px 4px $sw-btn;
+      
+        transition: background-color $pr-transition ;
+      
+      &:hover,
+      &:focus {
+        background-color: $hover-btn-col;
+        box-shadow: 0px 4px 4px $sw-btn;
+      }
+    
+      &--hero {
+         
+            padding: 10px 32px;
+        }
+      
+     
 }
