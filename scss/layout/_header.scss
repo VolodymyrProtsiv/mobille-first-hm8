@@ -16,14 +16,12 @@
         top:0;
         left:0;
         width: 100vw;
-         height: 100vw;
+        height: 100vw;
         background-color: $bg-pr-col;
 
 
-        &--size{
-            
-            padingp:48px 40px;
-        }
+        
+        
     }
     
     .btn__mobile{
@@ -64,29 +62,19 @@
 
         }
     }
-// nav-mobile
-    // .nav{
-    //     &--size{
-    //         margin-top: 48px;
-    //         margin-left: 40px;
-    //     }
-    // }
 
+    // mobile-conteiner
     .mob__conteiner{
-       
-        width: 100vw;
-        height: 100vh;
         display: flex;
-       
+         width: 100vw;
+        height: 100vh;
         flex-direction: column;
         justify-content: space-between;
-
-        &--size{
-            padding: 48px 40px;
-            
-        }
-
+        padding:48px 40px;
     }
+
+    // nav-mobile
+  
     .nav__item{
 
         &--size{
@@ -110,7 +98,7 @@
 
         
     }
-// contacts mobile menu
+    // contacts mobile menu
     .contacts__list{
 
         &--size{
@@ -125,17 +113,35 @@
     }
 
     .social__item{
+        display: flex;
         align-items: center;
+        &--size{
+            
+            margin-right: 10px;
+            
+        }
         
     }
 
     .social__link{
-color: $accent-col;
+        color: $accent-col;
+
+        &--size{
+            margin-right: 10px;
+            
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+        
+        
     }
+       
     .social__dec{
-        display: flex;
-
-
+        // display: block;
+        width: 22px;
+        border:1px solid rgba(33, 33, 33, 0.2);
+        transform: rotate(90deg);
     }
     
 }
