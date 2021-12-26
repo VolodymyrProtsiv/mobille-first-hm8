@@ -4,7 +4,7 @@
      border-bottom: 1px solid $br-solid-col;
 
 }
-// active
+
 
 // mobile-menu
 @media screen and (max-width:767px) {
@@ -176,7 +176,7 @@
         border:1px solid rgba(33, 33, 33, 0.2);
         transform: rotate(90deg);
     }
-
+    // active
     .active{
         color: $accent-col;
     }
@@ -187,6 +187,9 @@
 
 @media screen and (min-width:768px){
     .btn__mobile{
+        display: none;
+    }
+    .mob__conteiner{
         display: none;
     }
 
