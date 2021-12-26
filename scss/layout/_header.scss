@@ -8,11 +8,10 @@
 
 // mobile-menu
 @media screen and (max-width:767px) {
-    // .mob__conteiner{
-    //     position:relative;
-    //     // display: flex;
-    //     // align-items: center;
-    // }
+    .header__menu__conteiner{
+        display: none;
+    }
+
     .mobile__manu{
         position:fixed;
         top:0;
@@ -189,13 +188,28 @@
     .btn__mobile{
         display: none;
     }
-    .mob__conteiner{
-        display: none;
-    }
+     .mob__conteiner{
+         display: none;
+     }
+
+
 
 }
+
+
+
    
-       
+ @media screen and (min-width:1200px){
+
+    
+    
+      
+    
+      
+    
+      
+      
+}      
 
 
 

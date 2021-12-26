@@ -148,6 +148,9 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  .header__menu__conteiner {
+    display: none;
+  }
   .mobile__manu {
     position: fixed;
     top: 0;
