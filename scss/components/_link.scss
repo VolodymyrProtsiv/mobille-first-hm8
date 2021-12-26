@@ -1,4 +1,16 @@
 .link{
     text-decoration: none;
     cursor: pointer;
+
+    transition: color $pr-transition;
+
+    &:focus,
+    &:hover{
+        color: $accent-col;
+    }
+    &:focus{
+        outline: $fh-outline;
+        border-radius: $fh-border-radius;
+    }
+
 }
