@@ -1,10 +1,9 @@
 .active {
 
+    color: $accent-col;
 
-   
-        color: $accent-col;
-  
-        &::after {
+      @media screen and (min-width:768px){
+          &::after {
             display: block;
           position: absolute;
           right: 0;
@@ -17,8 +16,8 @@
           border-radius: 4px;
         
           background-color: $accent-col;
-        }
+          }
 
-    
-  
+
+      }
 }
