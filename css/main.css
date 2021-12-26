@@ -218,6 +218,27 @@ body {
   .contacts__list--size {
     margin-bottom: 64px;
   }
+  .contact__item {
+    display: block;
+  }
+  .contact__item--tel {
+    margin-bottom: 32px;
+  }
+  .contact__link__tel {
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    /* identical to box height */
+    letter-spacing: 0.02em;
+    color: #2196f3;
+  }
+  .contact__link__mail {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #757575;
+  }
   .social__list {
     display: -webkit-box;
     display: -ms-flexbox;
