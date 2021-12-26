@@ -13,7 +13,8 @@
         "../scss/components/_is-hidden.scss",
         "../scss/components/_btn.scss",
         "../scss/layout/_header.scss",
-        "../scss/layout/_hero-section.scss"
+        "../scss/layout/_hero-section.scss",
+        "../scss/layout/_skills-section.scss"
     ],
     "names": [],
     "file": "main.css"
