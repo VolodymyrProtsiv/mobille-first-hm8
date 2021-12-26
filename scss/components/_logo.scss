@@ -1,5 +1,5 @@
 .logo{
-display: block;
+ display: flex;
 
 font-family: Raleway;
 font-weight: 700;
@@ -8,6 +8,11 @@ line-height:  1.7;
 letter-spacing: 0.03em;
 
 color: $accent-col;
+
+    &:focus{
+        outline: $fh-outline;
+        border-radius: $fh-border-radius;
+    }
 
 
     @media screen and (min-width: 1200px){
@@ -23,14 +28,11 @@ color: $accent-col;
     }
 
 
-        &:focus{
-            outline: $fh-outline;
-            border-radius: $fh-border-radius;
-         }
+       
 
     &--size{
         @media screen and (max-width: 767px){
-            margin-right: auto;
+           
             padding: 16px 0px;
         }
 

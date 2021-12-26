@@ -5,14 +5,19 @@
     margin: 0 auto;
 
     &--header{
+        position: relative;
         display: flex;
+        align-items: center;
     }
    
     
  
 
     @media screen and (min-width:480px){
+        position: relative;
         width: 480px;
+
+        
         
         
         
