@@ -1,0 +1,29 @@
+.section{
+    background-color: $bg-pr-col;
+
+
+    &--size {
+        @media screen and (min-width: 480px){
+            padding: 60px 0px;
+          }
+
+          @media screen and (min-width: 1200px){
+            padding: 94px 0px;
+          }
+
+
+        // padding: 94px 0px;
+      
+
+        &__do--size {
+            @media screen and (min-width: 1200px){
+                padding-bottom: 94px;
+              }
+            
+        }  
+
+        &__team {
+            background-color: $bg-lightgrey-col;
+        }
+    }
+}
