@@ -113,6 +113,7 @@ body {
   .conteiner {
     position: relative;
     width: 480px;
+    background: green;
   }
 }
 
